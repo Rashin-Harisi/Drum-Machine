@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Drum Machine</title>
+    <script src="https://kit.fontawesome.com/b307f7ef1b.js" crossorigin="anonymous"></script>
+    <script <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div id="drum-machine">
+        <p id="logo">FCC <i class="fa-brands fa-free-code-camp"></i></p>
+        <div id="display"></div>
+        <input id="volume-range" type="range" min="0" max="1" step="0.1" />
+        <div id="pads">
+            <button class="drum-pad" id="Q"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3"
+                    name="Heater1" class="clip" id="Q"></audio>Q</button>
+
+
+            <button class="drum-pad" id="W"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-2.mp3"
+                    name='Heater2' class="clip" id="W"> </audio>W</button>
+
+
+            <button class="drum-pad" id="E"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-3.mp3"
+                    name='Heater3' class="clip" id="E"></audio>E</button>
+
+
+            <button class="drum-pad" id="A"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-4_1.mp3"
+                    name='Heater4' class="clip" id="A"></audio>A</button>
+
+
+            <button class="drum-pad" id="S"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Heater-6.mp3"
+                    name='clap' class="clip" id="S"></audio>S</button>
+
+
+            <button class="drum-pad" id="D"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Dsc_Oh.mp3"
+                    name='open-hh' class="clip" id="D"></audio>D</button>
+
+
+            <button class="drum-pad" id="Z"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Kick_n_Hat.mp3"
+                    name='Kick_n_Hat' class="clip" id="Z"></audio>Z</button>
+
+
+            <button class="drum-pad" id="X"><audio src="https://s3.amazonaws.com/freecodecamp/drums/RP4_KICK_1.mp3"
+                    name='kick' class="clip" id="X"></audio>X</button>
+
+
+            <button class="drum-pad" id="C"><audio src="https://s3.amazonaws.com/freecodecamp/drums/Cev_H2.mp3"
+                    name='closed-hh' class="clip" id="C"></audio>C</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

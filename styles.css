@@ -1,0 +1,50 @@
+#drum-machine{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #pads{
+    display: grid;
+    grid-template-columns: 25px 25px 25px;
+    grid-template-rows: 25px 25px 25px;
+    gap: 10px;
+    width: 105px;
+    height: 100px;
+    position: absolute;
+    top: 25%;
+    left: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .drum-pad{
+    font-family: Monaco;
+  }
+  #display{
+    background-color: grey;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    top: 40%;
+    left: 170px;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+  }
+  #volume-range{
+    position: absolute;
+    top: 65%;
+    left: 170px;
+    width: 100px;
+  }
+  #logo{
+    font-style:italic;
+    font-size: 14px;
+    font-weight: bold;
+    width: 60px;
+    float: right;
+    margin-right: 10px;
+  }
